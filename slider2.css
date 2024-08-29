@@ -1,0 +1,145 @@
+/* Importing Google Font - Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("images/bg.jpg") white no-repeat center;
+ 
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 70px 55px;
+  padding-bottom: 100px;
+  
+}
+
+.card-list .card-item {
+  height: auto;
+  color: #fff;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid lightgray;
+  user-select: none;
+  
+}
+
+
+
+.icon{
+  border-radius: 9px;
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/dsc_09329622.jpg') 50% /
+ cover no-repeat;
+position: relative;
+margin-bottom: 17.8px;
+display: flex;
+padding: 65.4px 0 65.5px 0.6px;
+width: 274px;
+height: 228px;
+box-sizing: border-box;
+margin-top: -10px;
+}
+
+
+.icon-2{
+  border-radius: 9px;
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/dsc_0932961.jpg') 50% /
+ cover no-repeat;
+position: relative;
+margin-bottom: 17.8px;
+display: flex;
+padding: 65.4px 0 65.5px 0.6px;
+width: 274px;
+height: 225px;
+box-sizing: border-box;
+}
+
+.star-1{
+  width: 20px;
+  height: 20px;
+
+}
+
+.card-list .card-item .customer-img {
+  width: 275px;
+  height: 225px;
+  border-radius: 9px;
+  margin-bottom: 17.8px;
+  
+}
+
+
+.card-list .card-item .customer-name {
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
+  margin: 10px 0 10px;
+}
+
+.card-list .card-item .customer-rew {
+  font-size: 10px;
+  color: black;
+  font-weight: 500;
+  margin: 5px 0 40px;
+  padding: 0 40px 0 40px;
+  text-align: center;
+}
+.verified{
+  margin-left: 1.3px;
+display: flex;
+flex-direction: row;
+width: fit-content;
+box-sizing: border-box;
+margin-bottom: 30px;
+
+}
+.verified-customer{
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.swiper-pagination-bullet {
+  visibility: hidden;
+}
+
+
+
+.slider-wrapper .swiper-slide-button {
+  color: #000000;
+  margin-top: -55px;
+  transition: 0.2s ease;
+ 
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+  color: #b1b1b1;
+}
+
+@media (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 10px 40px;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+}

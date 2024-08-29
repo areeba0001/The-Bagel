@@ -1,0 +1,1588 @@
+
+
+/* Announcement bar */
+
+.Announcement-bar {
+    background:  #FFF8ED;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Bahnschrift';
+    font-weight: 400;
+    font-size: 16px;
+    color: #313131;
+    z-index: 1;
+     position: relative;
+overflow: hidden;
+    }
+    @media (max-width: 576px) {
+        .Announcement-bar {
+            padding-top: 6px;
+            padding-bottom: 6px;
+            font-size: 14px;
+        }
+    }
+    
+
+/* Announcement bar */
+
+
+
+/* Navigation Menu */
+
+#Navigation-bar{
+    background: #FFFFFF;
+    display: flex;
+     justify-content: space-between;
+     z-index: 1;
+     position: relative;
+     overflow: hidden;
+}
+#navbarcontainer{
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 64.6px;
+    height: 62px;
+    margin-left: 130px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#navbarcontainer ul{
+    overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 18px;
+color: #020202;
+list-style-type: none;
+padding-left: 60px;
+display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+#navbarcontainer li{
+    padding-left: 30px;
+}
+
+#navbarcontainer a{
+  text-decoration: none;
+  color: #020202;
+}
+  
+#navbarcontainer a:hover{
+    color: #afacac;
+}
+
+.search{
+    padding-left: 320px;
+    height: 22px;
+    width: 22px;
+    
+}
+
+.map{
+    height: 22px;
+    width: 22px;
+}
+.contact{
+    height: 22px;
+    width: 22px;
+}
+.vl{
+    border-left: 2px solid rgb(230, 230, 230);
+    height: 30px;
+    margin-left: -50px;
+    margin-top: -5px;
+}
+.cart{
+    height: 22px;
+    width: 22px;
+    margin-left: 25px;
+}
+.icon{
+    visibility: hidden;
+}
+
+.dropdown{
+    visibility: hidden;
+}
+
+
+@media (max-width: 576px) {
+    #Navigation-bar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #navbarcontainer {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin: 10px 0;
+    }
+
+    #navbarcontainer ul {
+        visibility: hidden;
+    }
+
+    #navbarcontainer li {
+        visibility: hidden;
+    }
+
+    .search, .map, .contact, .cart {
+        visibility: hidden;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .icon, .dropdown {
+        visibility: visible;
+    }
+}
+
+
+/* Navigation Menu */
+
+
+
+
+
+
+/*Main Section*/
+.img{
+    background: var(--bg-2, #FFF8ED);
+position: relative;
+height: 681px;
+overflow: hidden;
+
+}
+
+.frame-1{
+    border-radius: 3756.1px;
+border: 4px solid var(--dark-brown-1, #6E2F1B);
+position: absolute;
+top: -134px;
+right: -119px;
+display: flex;
+padding: 24.8px 25.2px 25.2px 24.8px;
+width: 788px;
+height: 788px;
+box-sizing: border-box;
+overflow: hidden;
+}
+.frame-2{
+    border-radius: 3815.3px;
+border: 5px solid var(--dark-brown-1, #6E2F1B);
+display: flex;
+padding: 23.2px;
+width: 730px;
+height: 730px;
+box-sizing: border-box;
+overflow: hidden;
+}
+
+.frame-3{
+    border-radius: 3520.9px;
+background: url('images/frame_1000004771.png');
+width: 673.7px;
+height: 673.7px;
+overflow: hidden;
+}
+
+
+@media (max-width: 576px) {
+    .img {
+        background: var(--bg-2, #FFF8ED);
+        height: 300px; 
+        padding: 20px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .frame-1 {
+        margin-right: 250px;
+        width: 90;
+        height: 90px;
+        top: -30vw;
+        
+        padding: 5vw;
+        border-radius: 50%;
+    }
+
+    .frame-2 {
+        width: 80vw;
+        height: 80vw;
+        padding: 4vw;
+        border-radius: 50%;
+    }
+
+    .frame-3 {
+        width: 70vw;
+        height: 70vw;
+        background-size: cover; 
+        border-radius: 50%;
+    }
+}
+
+/*Main Section end*/
+
+
+
+
+
+
+/* Logo Section*/
+
+.logos-section{
+    background: linear-gradient(#6E2F1B, #6E2F1B), linear-gradient(77.67deg, #322020 0%, #544242 99.6%);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 63px 109.9px 0px 105px;
+box-sizing: border-box;
+overflow: hidden;
+}
+
+.pieces-logos{
+    display: flex;
+width: 111px;
+height: 80px;
+box-sizing: border-box;
+
+}
+
+.mask-group {
+    width: 61.6px;
+height: 34.6px;
+
+}
+
+.pieces-logos-1{
+    margin: 1px 0 1.6px 0;
+display: flex;
+width: 160px;
+height: 80px;
+box-sizing: border-box;
+}
+
+.mask-group-1{
+    width: 103.7px;
+height: 32px;
+
+}
+
+.pieces-logos-2{
+    margin: 2px 0 2.6px 0;
+display: flex;
+width: 160px;
+height: 80px;
+box-sizing: border-box;
+}
+
+.mask-group-2{
+    width: 152.1px;
+height: 30px;
+}
+
+.pieces-logos-3{
+    margin: 1px 0 1.6px 0;
+display: flex;
+width: 160px;
+height: 80px;
+box-sizing: border-box;
+}
+
+.mask-group-3{
+    width: 125.1px;
+height: 32px;
+}
+
+.pieces-logos-4{
+    margin: 1px 0 1.6px 0;
+display: flex;
+width: 160px;
+height: 80px;
+box-sizing: border-box;
+}
+
+.mask-group-4{
+    width: 103.7px;
+    height: 32px;
+}
+
+.pieces-logos-5{
+    margin-bottom: 0.6px;
+display: flex;
+width: 134px;
+height: 80px;
+box-sizing: border-box;
+}
+
+.mask-group-5{
+    width: 98.1px;
+    height: 34px;
+}
+
+@media (max-width: 576px) {
+    .logos-section {
+        flex-direction: column;
+        align-items: center; 
+        padding: 20px; 
+        overflow: hidden;
+        width: auto;
+    }
+
+    .pieces-logos,
+    .pieces-logos-1,
+    .pieces-logos-2,
+    .pieces-logos-3,
+    .pieces-logos-4,
+    .pieces-logos-5 {
+        width: 80%; 
+        height: auto; 
+        margin-bottom: 20px; 
+        justify-content: center; 
+    }
+
+    .mask-group {
+        width: 40px; 
+        height: auto; 
+    }
+
+    .mask-group-1 {
+        width: 70px; 
+        height: auto;
+    }
+
+    .mask-group-2 {
+        width: 100px; 
+        height: auto; 
+    }
+
+    .mask-group-3 {
+        width: 80px;
+        height: auto;
+    }
+
+    .mask-group-4 {
+        width: 70px;
+        height: auto; 
+    }
+
+    .mask-group-5 {
+        width: 65px;
+        height: auto; 
+    }
+}
+
+/*Logo Section end*/
+
+
+
+
+
+
+/*Tasty Temptations*/
+
+.tasty-temptations{
+    margin: 45px 0px 45px 0px;
+    overflow-wrap: break-word;
+    font-family: 'Lora';
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--black-21, #202020);
+    text-align: center;
+    overflow: hidden;
+}
+
+#Tasty{
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: fit-content;
+box-sizing: border-box;
+margin: 0 150px 80px 175px;
+}
+
+.TASTY-SECTION{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    width: fit-content;
+    box-sizing: border-box;
+   
+
+}
+
+.bagels{
+
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: 285px;
+box-sizing: border-box;
+}
+
+.bagels-frame{
+
+    background: var(--mustard-bg, #F8EEDF);
+margin-bottom: 24px;
+display: flex;
+width: 285px;
+height: 414px;
+box-sizing: border-box;
+}
+
+.bagels-img-1{
+
+    background: url('images/alejandra_cifre_gonzalez_z_9_yaldym_uui_unsplash_11.jpeg') 50% / cover no-repeat;
+width: 285px;
+height: 414px;
+}
+
+.bagels-title{
+
+    opacity: 0.9;
+overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 18px;
+line-height: 1.455;
+color: var(--text, #313131);
+}
+
+
+/*Salmon & Cream Cheese*/
+
+.salmon-cream-cheese{
+
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: 285px;
+box-sizing: border-box;
+}
+
+.salmon-cream-cheese-frame{
+    background: var(--mustard-bg, #F8EEDF);
+    margin-bottom: 24px;
+    display: flex;
+    width: 285px;
+    height: 414px;
+    box-sizing: border-box;
+}
+
+.salmon-cream-cheese-img-2{
+
+    background: url('images/alejandra_cifre_gonzalez_z_9_yaldym_uui_unsplash_13.jpeg') 50% / cover no-repeat;
+    width: 285px;
+    height: 414px;
+}
+
+.salmon-cream-cheese-title{
+
+    opacity: 0.9;
+overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 18px;
+line-height: 1.455;
+color: var(--text, #313131);
+}
+
+/*Salmon & Cream Cheese*/
+
+
+/*muffins*/
+
+.muffins{
+
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: 285px;
+box-sizing: border-box;
+}
+
+.muffins-frame{
+    background: var(--mustard-bg, #F8EEDF);
+    margin-bottom: 24px;
+    display: flex;
+    width: 285px;
+    height: 414px;
+    box-sizing: border-box;
+}
+
+.muffins-img-3{
+
+    background: url('images/alejandra_cifre_gonzalez_z_9_yaldym_uui_unsplash_12.png') 50% / cover no-repeat;
+    width: 285px;
+    height: 414px;
+}
+
+.muffins-title{
+
+    opacity: 0.9;
+overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 18px;
+line-height: 1.455;
+color: var(--text, #313131);
+}
+
+/*muffins*/
+
+
+/*breads*/
+
+.breads{
+
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: 285px;
+box-sizing: border-box;
+}
+
+.breads-frame{
+    background: var(--mustard-bg, #F8EEDF);
+    margin-bottom: 24px;
+    display: flex;
+    width: 285px;
+    height: 414px;
+    box-sizing: border-box;
+}
+
+.breads-img-4{
+
+    background: url('images/alejandra_cifre_gonzalez_z_9_yaldym_uui_unsplash_13.jpeg') 50% / cover no-repeat;
+    width: 285px;
+    height: 414px;
+}
+
+.breads-title{
+
+    opacity: 0.9;
+overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 18px;
+line-height: 1.455;
+color: var(--text, #313131);
+}
+
+/*breads*/
+@media (max-width: 576px) {
+    .tasty-temptations {
+        font-size: 32px;
+        margin: 20px 0px; 
+        
+    }
+
+    #Tasty {
+        margin: 0 20px 40px 20px; 
+        width: 100%;
+        align-items: center;
+    }
+
+    .TASTY-SECTION {
+        flex-direction: column; 
+        row-gap: 30px; 
+        width: 20%; 
+        align-items: center;
+    }
+
+    .bagels,
+    .salmon-cream-cheese,
+    .muffins,
+    .breads {
+        width: 90%;
+    }
+
+    .bagels-frame,
+    .salmon-cream-cheese-frame,
+    .muffins-frame,
+    .breads-frame {
+        width: 100%;
+        height: auto;
+    }
+
+    .bagels-img-1 {
+        background: url('images/alejandra_cifre_gonzalez_z_9_yaldym_uui_unsplash_11.jpeg') center / cover no-repeat;
+    }
+
+    .salmon-cream-cheese-img-2 {
+        background: url('images/alejandra_cifre_gonzalez_z_9_yaldym_uui_unsplash_13.jpeg') center / cover no-repeat;
+    }
+
+    .muffins-img-3 {
+        background: url('images/alejandra_cifre_gonzalez_z_9_yaldym_uui_unsplash_12.png') center / cover no-repeat;
+    }
+
+    .breads-img-4 {
+        background: url('images/alejandra_cifre_gonzalez_z_9_yaldym_uui_unsplash_13.jpeg') center / cover no-repeat;
+    }
+
+    .bagels-title,
+    .salmon-cream-cheese-title,
+    .muffins-title,
+    .breads-title {
+        font-size: 16px;
+        text-align: center; 
+    }
+}
+
+
+
+
+/*Tasty Temptations end*/
+
+
+
+
+
+
+
+/*Icon-Temptations*/
+
+.Icon-Temptations{
+    background: var(--bg-2, #FFF8ED);
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 114.2px 60px 250px;
+    width: fit-content;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+/*quality-ingredients*/
+
+.quality-ingredients-Icon-frame{
+
+    margin: 0px 130.9px 2.6px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.quality-ingredients-mask-group{
+    margin-bottom: 20px;
+width: 64px;
+height: 61.7px;
+
+}
+
+.quality-ingredients-frame{
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: fit-content;
+box-sizing: border-box;
+}
+
+.quality-ingredients-title{
+    margin: 0 9px 8px 9px;
+display: inline-block;
+overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 24px;
+line-height: 1.333;
+color: var(--bg-1, #2A211F);
+}
+
+.quality-ingredients-content{
+    text-align: center;
+overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.571;
+color: var(--caption, #4A4A4A);
+}
+
+/*quality-ingredients*/
+
+
+/*freshness-guaranteed*/
+
+.freshness-guaranteed-Icon-frame{
+
+    margin: 0px 130.9px 2.6px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.freshness-guaranteed-mask-group{
+    margin-bottom: 20px;
+width: 64px;
+height: 61.7px;
+
+}
+
+.freshness-guaranteed-frame{
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: fit-content;
+box-sizing: border-box;
+}
+
+.freshness-guaranteed-title{
+    margin: 0 9px 8px 9px;
+display: inline-block;
+overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 24px;
+line-height: 1.333;
+color: var(--bg-1, #2A211F);
+}
+
+.freshness-guaranteed-content{
+    text-align: center;
+overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.571;
+color: var(--caption, #4A4A4A);
+}
+
+/*freshness-guaranteed*/
+
+/*Since-1990*/
+
+.Since-1990-Icon-frame{
+
+    margin: 0px 130.9px 2.6px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Since-1990-vector{
+    margin-bottom: 20px;
+width: 64px;
+height: 61.7px;
+fill: #6E2F1B;
+}
+
+.Since-1990-frame{
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: fit-content;
+box-sizing: border-box;
+}
+
+.Since-1990-title{
+    margin: 0 9px 8px 9px;
+display: inline-block;
+overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 24px;
+line-height: 1.333;
+color: var(--bg-1, #2A211F);
+}
+
+.Since-1990-content{
+    text-align: center;
+overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.571;
+color: var(--caption, #4A4A4A);
+}
+
+/*Since-1990*/
+
+@media (max-width: 576px) {
+    .Icon-Temptations {
+        flex-direction: column; 
+        padding: 20px 10px; 
+        width: 100%; 
+        box-sizing: border-box;
+    }
+
+    .quality-ingredients-Icon-frame,
+    .freshness-guaranteed-Icon-frame,
+    .Since-1990-Icon-frame {
+        margin: 0 0 20px 0;
+        width: 100%; 
+        align-items: center;
+    }
+
+    .quality-ingredients-mask-group,
+    .freshness-guaranteed-mask-group,
+    .Since-1990-vector {
+        width: 48px; 
+        height: 45px;
+    }
+
+    .quality-ingredients-title,
+    .freshness-guaranteed-title,
+    .Since-1990-title {
+        font-size: 18px;
+    }
+
+    .quality-ingredients-content,
+    .freshness-guaranteed-content,
+    .Since-1990-content {
+        font-size: 12px; 
+    }
+}
+/*Icon-Temptations end*/
+
+
+
+
+
+
+
+/*slider*/
+
+.slider-title h1{
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Lora';
+    font-weight: 60px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+ 
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 1440px;
+  margin: 55px 70px 60px ;
+  
+}
+
+.card-list .card-item {
+  height: auto;
+  
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  backdrop-filter: blur(30px);
+ 
+  
+}
+
+.card-list .card-item .image {
+    background: var(--gray, #F7F4F2);
+    margin-bottom: 18.5px;
+    display: flex;
+    padding: 53.6px 15px 54.5px 15px;
+    width: 285px;
+    height: 303px;
+    box-sizing: border-box;
+  }
+
+  .button {
+    display: none;
+}
+
+img:hover + .button, .button:hover {
+    display: inline-block;
+}
+
+
+.card-list .card-item .card-content-title {
+  font-size: 1.25rem;
+  color: #000000;
+  font-weight: 400;
+  margin: 8px 0px 40px ;
+  font-family: 'Bahnschrift';
+}
+
+.card-list .card-item .card-half-star {
+    width: 19px;
+    height: 19px;
+    margin-top: 7px;
+   
+  }
+
+  .card-box-container-1{
+    overflow-wrap: break-word;
+font-family: 'Source Sans Pro', 'Roboto Condensed';
+font-weight: 600;
+font-size: 14px;
+line-height: 1.8;
+
+color: #000000;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+  background: #D59A3D;
+  height: 5px;
+  width: 100px;
+  border-radius: 0%;
+  opacity: 0.5;
+  
+}
+
+.slider-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+
+
+@media (max-width: 576px) {
+  .slider-wrapper {
+    margin: 0 10px 40px;
+    width: 100;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+  .slider-wrapper .swiper-pagination-bullet {
+    background: #D59A3D;
+    height: 5px;
+    width: 70px;
+    border-radius: 0%;
+    opacity: 0.5;
+    
+  }
+  .slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+}
+ /*slider*/
+
+
+
+
+
+
+
+/*tabs*/
+
+.tabs{
+    background: #FFF8ED;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 80px 105px 82px 105px;
+box-sizing: border-box;
+margin-top: 100px;
+overflow: hidden;
+
+}
+
+
+.tabs-main-title{
+    margin-bottom: 60px;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 1092px;
+box-sizing: border-box;
+}
+
+.personalized-bundles{
+    margin-bottom: 50px;
+display: inline-block;
+overflow-wrap: break-word;
+font-family: 'Lora';
+font-weight: 600;
+font-size: 48px;
+text-transform: capitalize;
+color: var(--black-21, #202020);
+}
+
+
+.tab{
+   
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-right: 72.7px;
+box-sizing: border-box;
+}
+
+.tab button{
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: 310.5px;
+box-sizing: border-box;
+border: none;
+background: none;
+}
+
+.tablinks{
+    margin-bottom: 12.9px;
+display: inline-block;
+overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 20px;
+line-height: 1.434;
+text-transform: uppercase;
+color: #414143;
+}
+
+.tab button.active{
+    border-radius: 2px;
+    border-bottom: 2px solid rgb(100, 100, 100);
+  
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    }
+
+/*tabcontent*/
+
+
+/*Birthdaybox*/
+.birthday-box-content{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.birthday-box-content-1{
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: 330px;
+box-sizing: border-box;
+}
+
+.birthday-box-image-1{
+    background: url('images/image_14.png') 50% / cover no-repeat;
+margin-bottom: 24.5px;
+width: 330px;
+height: 217.1px;
+}
+
+.birthday-box-image-2{
+    background: url('images/image_15.jpeg') 50% / cover no-repeat;
+margin-bottom: 24.5px;
+width: 330px;
+height: 217.1px;
+}
+
+.birthday-box-image-3{
+    background: url('images/image_13.png') 50% / cover no-repeat;
+margin-bottom: 24.5px;
+width: 330px;
+height: 217.1px;
+}
+
+.birthday-box-star{
+    margin-right: 0.9px;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: fit-content;
+box-sizing: border-box;
+}
+.birthday-box-star-content{
+
+    margin-bottom: 10.5px;
+display: flex;
+flex-direction: row;
+width: fit-content;
+box-sizing: border-box;
+}
+
+.birthday-box-star-content-1{
+    margin: 2.5px 6px 2.5px 0;
+display: flex;
+flex-direction: row;
+width: 107.5px;
+height: fit-content;
+box-sizing: border-box;
+}
+
+.star-1{
+    margin-right: 1.9px;
+width: 20px;
+height: 20px;
+}
+
+.star-2{
+    margin-right: 1.9px;
+width: 20px;
+height: 20px;
+}
+.star-3{
+    margin-right: 1.9px;
+width: 20px;
+height: 20px;
+}
+.star-4{
+    margin-right: 1.9px;
+width: 20px;
+height: 20px;
+}
+
+.half-star{
+    margin-top: -1px;
+    width: 25px;
+height: 25px;
+}
+
+.birthday-box-container-1{
+    overflow-wrap: break-word;
+font-family: 'Source Sans Pro', 'Roboto Condensed';
+font-weight: 600;
+font-size: 14px;
+line-height: 1.8;
+color: #000000;
+}
+
+.birthday-box-content-title{
+    margin: 0 3.7px 10px 4.7px;
+display: inline-block;
+overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 20px;
+letter-spacing: 0.2px;
+line-height: 1.242;
+color: #000000;
+}
+
+
+.birthday-box-price{
+    margin-left: 0.9px;
+overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 400;
+font-size: 22px;
+letter-spacing: 1.4px;
+line-height: 0.636;
+color: var(--light-brown, #D59A3D);
+}
+/*Birthdaybox*/
+
+@media (max-width: 576px) {
+    .birthday-box-content{
+        display: block;
+        flex-direction: row;
+        column-gap: 100px;
+        margin-top: 50px;
+        box-sizing: border-box;
+    }
+    .tabs {
+        padding: 40px 20px;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .tabs-main-title {
+        width: 100%;
+    }
+
+    .personalized-bundles {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .tab {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+    }
+
+    .tab button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .tablinks {
+        font-size: 16px;
+    }
+
+    .tab button.active {
+        border-bottom: 2px solid rgb(100, 100, 100);
+        border-radius: 2px;
+    }
+
+}
+
+
+
+/*tabs end */
+
+
+
+
+
+
+
+
+
+
+/*Catering section*/
+
+.Catering-section{
+    background: #FFFFFF;
+position: relative;
+padding: 258px 105px 258px 105px;
+width: fit-content;
+box-sizing: border-box;
+overflow: hidden;
+}
+
+.Catering-section-img{
+    background: url('images/mhsingle_img_1511.png') 50% / cover no-repeat, url('images/mhsingle_img_1511.png');
+position: absolute;
+top: 50%;
+left: 900px;
+translate: 0 -50%;
+width: 480px;
+height: 700px;
+}
+
+.Catering-section-contentbox{
+    background: var(--bg-2, #FFF8ED);
+position: relative;
+display: flex;
+flex-direction: column;
+padding: 56px 56px 56px 56px;
+box-sizing: border-box;
+margin-right: 400px;
+margin-left: 100px;
+}
+
+
+.Catering-section-content{
+    margin-bottom: 30px;
+display: flex;
+flex-direction: column;
+align-self: flex-start;
+width: fit-content;
+box-sizing: border-box;
+}
+
+.davidovich-catering{
+    margin-bottom: 16px;
+display: inline-block;
+align-self: flex-start;
+overflow-wrap: break-word;
+font-family: 'Lora';
+font-weight: 600;
+font-size: 48px;
+color: var(--black-21, #202020);
+}
+
+p1{
+   font-size: 20px;
+   font-weight: 600;
+   margin-top: 20px;
+}
+
+p2{
+    margin-top: 35px;
+}
+.Catering-button{
+    margin-top: 40px;
+}
+button{
+    background-color: #6E2F1B;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Lora';
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/*Catering section end*/
+
+
+
+
+
+
+
+/*Footer*/
+
+.footer{
+    display: flex;
+flex-direction: column;
+align-items: center;
+background: #FFF8ED;
+box-sizing: border-box;
+margin-top: 100px;
+overflow: hidden;
+
+}
+
+.footer-section-1{
+    background: #FFF8ED;
+position: relative;
+width: 1440px;
+height: 342px;
+}
+.footer-section-2{
+    position: absolute;
+left: 105px;
+top: 50%;
+right: 11px;
+translate: 0 -50%;
+display: flex;
+flex-direction: row;
+box-sizing: border-box;
+}
+
+.footer-categories-1{
+    margin: 0 103.7px 12px 0;
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+flex-basis: 203.8px;
+box-sizing: border-box;
+}
+
+
+
+.categories{
+    margin-bottom: 16px;
+display: inline-block;
+align-self: flex-start;
+overflow-wrap: break-word;
+font-family: 'Lora';
+font-weight: 600;
+font-size: 20px;
+letter-spacing: 0.4px;
+color: var(--bg-1, #2A211F);
+}
+
+.categoris-list{
+    display: flex;
+flex-direction: column;
+width: fit-content;
+box-sizing: border-box;
+}
+
+.best-buys-1{
+    margin-bottom: 5px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Bahnschrift';
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    line-height: 1.25;
+    color: var(--bg-1, #2A211F);
+text-decoration: none;
+}
+
+
+.footer-icon{
+    display: flex;
+flex-direction: column;
+width: fit-content;
+box-sizing: border-box;
+}
+
+.footer-icon-list{
+    margin: 0 0 24px 2.3px;
+display: flex;
+flex-direction: row;
+width: fit-content;
+box-sizing: border-box;
+}
+
+.pin-1{
+    margin: 0 8.3px 22px 0;
+display: flex;
+width: 18px;
+height: 18px;
+box-sizing: border-box;
+}
+
+.vector-pin{
+    width: 25px;
+height: 18px;
+}
+
+.pin-content{
+    overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 200;
+font-size: 16px;
+letter-spacing: 0.2px;
+
+color: var(--bg-1, #2A211F);
+}
+
+.vector-phone{
+    width: 25px;
+height: 18px;
+
+}
+
+.phone-content{
+    overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 200;
+font-size: 16px;
+letter-spacing: 0.2px;
+color: var(--bg-1, #2A211F);
+margin-top: -40px;
+margin-left: 30px;
+}
+
+.vector-email{
+    width: 25px;
+height: 18px;
+margin-top: 25px;
+}
+
+.email-content{
+    overflow-wrap: break-word;
+font-family: 'Bahnschrift';
+font-weight: 200;
+font-size: 16px;
+letter-spacing: 0.2px;
+color: var(--bg-1, #2A211F);
+margin-top: 25px;
+margin-left: 10px;
+}
+
+.social-icons{
+    display: flex;
+flex-direction: row;
+align-self: flex-start;
+column-gap: 12.3px;
+width: 209.2px;
+box-sizing: border-box;
+}
+
+.social-icons-1{
+    border-radius: 3690.5px;
+background: #FAEDD8;
+display: flex;
+padding: 9px 9px 9px 9px;
+width: 32px;
+height: 32px;
+box-sizing: border-box;
+margin-top: 25px;
+}
+
+.vector-facebook{
+    width: 30px;
+height: 14px;
+align-items: center;
+}
+
+
+.scroll-img{
+    width: 55px;
+    height: 55px;
+    margin-top: -100px;
+margin-bottom: 50px;
+margin-left: 50px;
+}
+#myBtn{
+background: none;
+margin-left: 600px;
+position: absolute;
+display: flex;
+box-sizing: border-box;
+cursor: pointer;
+}
+
+.footer-bar{
+    background: #FAEDD8;
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 18px 105px 18px 104px;
+box-sizing: border-box;
+
+}
+
+
+.footer-bar-text{
+    margin: 4px 0;
+display: flex;
+box-sizing: border-box;
+}
+
+.davidovich-bakery{
+    overflow-wrap: break-word;
+font-family: 'Montserrat';
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.3px;
+line-height: 1;
+color: var(--bg-1, #2A211F);
+}
+
+.footer-bar-payment{
+    display: flex;
+flex-direction: row;
+width: 298px;
+height: fit-content;
+box-sizing: border-box;
+
+}
+
+.footer-bar-payment-1{
+    margin-right: 14px;
+width: 38px;
+height: 24px;
+
+}
+
+/*Footer end*/
