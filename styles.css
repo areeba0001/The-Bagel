@@ -1361,7 +1361,7 @@ background: #FFF8ED;
 box-sizing: border-box;
 margin-top: 100px;
 overflow: hidden;
-
+margin-bottom:-20px;
 }
 
 .footer-section-1{
@@ -1547,7 +1547,7 @@ position: relative;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-padding: 18px 105px 0 104px;
+padding: 18px 105px 18px 104px;
 box-sizing: border-box;
 
 }
